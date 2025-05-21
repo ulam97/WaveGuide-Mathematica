@@ -1,5 +1,9 @@
 (* WaveGuideSimulation.m *)
-(*This is basically a comment, any line of code within asterisk-bracket pair is simply suppressed within  running session*) 
+(*This is basically a comment, any line of code within asterisk-bracket pair is simply suppressed within  running session*)
+(*This simulation is flawed because the specification to use forward difference,
+resulting one side of the boundary conditions not to be enforced*)
+(*The behavior is AFAIR is an initial pulse that slowly disperse to infinity*)
+
 ClearAll["Global`*"] 
 
 (*Initialization all in SI*) 
